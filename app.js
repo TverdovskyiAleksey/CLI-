@@ -45,19 +45,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-// (async () => {
-//   try {
-//     // const contacts = await contactsOperations.listContacts();
-//     // console.log(contacts);
-//     // const oneContact = await contactsOperations.getContactById(id);
-//     // console.log(oneContact);
-//     // const newContact = await contactsOperations.addContact(newData);
-//     // console.log(newContact);
-//     //   const updateContact = await contactsOperations.updateById(id, {...})
-//     // const result = await contactsOperations.removeContact(delId);
-//     // console.log(result);
-//   } catch (error) {
-//     console.log(error.message);
-//   }
-// })();
